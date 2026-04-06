@@ -53,7 +53,7 @@ endmodule
 
 // -- Main design --------------------------------------------------------------
 // Rename module to tt_um_YOURGITHUBNAME_vga_stripes
-module tt_um_yourname_vga_stripes (
+module tt_um_doc4science_vga (
     input  wire [7:0] ui_in,    // ui_in[0] = optional speed toggle
     output wire [7:0] uo_out,   // VGA: {hsync, B0, G0, R0, vsync, B1, G1, R1}
     input  wire [7:0] uio_in,
